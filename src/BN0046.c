@@ -5,13 +5,13 @@
 #define MY_UUID { 0xAE, 0xC3, 0x6F, 0x0D, 0x05, 0x17, 0x43, 0x9B, 0x81, 0x81, 0x05, 0x4E, 0xF5, 0x25, 0xC8, 0x65 }
 
 // Select Layout Elements
-#define SHOW_MOON         true
+#define SHOW_MOON         false
 #define SHOW_DATE         true
 #define SHOW_SECONDS      true
 
 // Select Date Behaviour (Choose 1)
 // Standard behavior when the following are undefined is: "Jan 12"
-#define WEEKDAY_US_MM_DD     false  // "Mon 01-12"
+#define WEEKDAY_US_MM_DD     true  // "Mon 01-12"
 #define WEEKDAY_NON_US_DD_MM false  // "Mon 12-01"
 
 PBL_APP_INFO(MY_UUID,
